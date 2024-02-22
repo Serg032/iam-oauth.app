@@ -1,0 +1,53 @@
+{
+    "version": "0.0.1",
+    "files": [
+        {
+            "path": "src/app/modules/admin/apps/iam/iam.component.html",
+            "integrity": "sha1:a6aab421500581830708e34385e2166e7a039ba7"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/iam.component.ts",
+            "integrity": "sha1:880d86f19f8517bcd4f902bc02e5298a619d531e"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/account/account-detail.component.html",
+            "integrity": "sha1:6effa0dc3410bd4fc6590953721665bd07c8554a"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/account/account-detail.component.ts",
+            "integrity": "sha1:d1f40b11c774fb4e8305d5ca24d0a938cbe237e3"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/account/account-list.component.html",
+            "integrity": "sha1:5aed9954c16337b9f5edeb447bd51b64e26e09da"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/account/account-list.component.ts",
+            "integrity": "sha1:ef1067ca89a902413b93b2fe01aed19599fee001"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/account/account.columns-config.ts",
+            "integrity": "sha1:e00d9a99cbdbb37af330798ece45a4d5fd92a2e2"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/account/account.graphql.ts",
+            "integrity": "sha1:a7359d83137451040d5483862183bc2b6c363cbe"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/account/account.resolvers.ts",
+            "integrity": "sha1:7758b44fa850f2be26a7db88fee2e9a63c7770a6"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/account/account.service.ts",
+            "integrity": "sha1:41d8343e0e0001d3bd20bd4da8f8216c5b5f1dd7"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/account/index.ts",
+            "integrity": "sha1:0668bfe7d206f064143571f4c397ca726db8cdaf"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/account/public-api.ts",
+            "integrity": "sha1:bf43f2da0bb24309e001dca6d6f81281b67d6073"
+        }
+    ]
+}

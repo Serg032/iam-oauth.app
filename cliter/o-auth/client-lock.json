@@ -1,0 +1,53 @@
+{
+    "version": "0.0.1",
+    "files": [
+        {
+            "path": "src/app/modules/admin/apps/o-auth/o-auth.component.html",
+            "integrity": "sha1:a6aab421500581830708e34385e2166e7a039ba7"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/o-auth.component.ts",
+            "integrity": "sha1:38168e361b46210416adfb1588bcb79f5d939810"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/client/client-detail.component.html",
+            "integrity": "sha1:4e17924064ee25e8ef55c8fae47901214c5d3df7"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/client/client-detail.component.ts",
+            "integrity": "sha1:77885d9e1af90217f91663fc58f9f21b0378bcd1"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/client/client-list.component.html",
+            "integrity": "sha1:71393ab929ea2b1087b48f8672586794ab7b3baf"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/client/client-list.component.ts",
+            "integrity": "sha1:e01d25391685f32f8b3e68d35d6108c17b706a4d"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/client/client.columns-config.ts",
+            "integrity": "sha1:15bb11c358701f7f7176bcb958780b2a68ca7420"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/client/client.graphql.ts",
+            "integrity": "sha1:cbaf61599fa404746db6cf64ab62d23f6ae2ac79"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/client/client.resolvers.ts",
+            "integrity": "sha1:b7a44f57a232c8af2a432829da55901c995e0044"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/client/client.service.ts",
+            "integrity": "sha1:8ba45ea326224b108b6294fb636940768544b1b1"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/client/index.ts",
+            "integrity": "sha1:0668bfe7d206f064143571f4c397ca726db8cdaf"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/client/public-api.ts",
+            "integrity": "sha1:64424bb3d478350ac99dd49847b88a0a6fbde1da"
+        }
+    ]
+}

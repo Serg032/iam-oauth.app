@@ -1,0 +1,53 @@
+{
+    "version": "0.0.1",
+    "files": [
+        {
+            "path": "src/app/modules/admin/apps/o-auth/o-auth.component.html",
+            "integrity": "sha1:a6aab421500581830708e34385e2166e7a039ba7"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/o-auth.component.ts",
+            "integrity": "sha1:38168e361b46210416adfb1588bcb79f5d939810"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/refresh-token/refresh-token-detail.component.html",
+            "integrity": "sha1:3b63b1533d3323205ef5170e0979d1deb5a97707"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/refresh-token/refresh-token-detail.component.ts",
+            "integrity": "sha1:cca733471b627fbcfa40390272c7251b567d591a"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/refresh-token/refresh-token-list.component.html",
+            "integrity": "sha1:0f68fdf1b12c633de2ba36fd46581b9669e98a56"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/refresh-token/refresh-token-list.component.ts",
+            "integrity": "sha1:c1e6ff8b325fb30688a4cb8c0ee8c817dc5be667"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/refresh-token/refresh-token.columns-config.ts",
+            "integrity": "sha1:fcdc8d958034c57e997ce97f141dfb06c71563b7"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/refresh-token/refresh-token.graphql.ts",
+            "integrity": "sha1:79670036e6485e8c4c36d725da3644b6cb427dcc"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/refresh-token/refresh-token.resolvers.ts",
+            "integrity": "sha1:88e8b21caa2fee68e0cc5cd9867688802c331bd0"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/refresh-token/refresh-token.service.ts",
+            "integrity": "sha1:4a3c1e3240b30ea85e9d6712ff94b56561a9f5f5"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/refresh-token/index.ts",
+            "integrity": "sha1:0668bfe7d206f064143571f4c397ca726db8cdaf"
+        },
+        {
+            "path": "src/app/modules/admin/apps/o-auth/refresh-token/public-api.ts",
+            "integrity": "sha1:e34339dccc90c7129e563cd6cba28e9049aa5f6c"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "version": "0.0.1",
+    "files": [
+        {
+            "path": "src/app/modules/admin/apps/iam/iam.component.html",
+            "integrity": "sha1:a6aab421500581830708e34385e2166e7a039ba7"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/iam.component.ts",
+            "integrity": "sha1:880d86f19f8517bcd4f902bc02e5298a619d531e"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/role/role-detail.component.html",
+            "integrity": "sha1:13c19326d754f3870cd38ddd00564a00a953103e"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/role/role-detail.component.ts",
+            "integrity": "sha1:cbf0c5cc720d5d495cabfaf64a1da52796533f07"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/role/role-list.component.html",
+            "integrity": "sha1:22091496fa87a1af944e7611215d1224c34ac879"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/role/role-list.component.ts",
+            "integrity": "sha1:817c87c70e9ab5c62b98df1d3325138e8e8bf10b"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/role/role.columns-config.ts",
+            "integrity": "sha1:b1a4afb013241437a9346510330c245faef84d28"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/role/role.graphql.ts",
+            "integrity": "sha1:54b13d2fc814d362dafce2d05303c1e93eaa9a25"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/role/role.resolvers.ts",
+            "integrity": "sha1:031f0039d53a7800d6da83666b21a21e81266ed5"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/role/role.service.ts",
+            "integrity": "sha1:8489a29b0f4d0a98e47e82d5137ac030a492ad45"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/role/index.ts",
+            "integrity": "sha1:0668bfe7d206f064143571f4c397ca726db8cdaf"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/role/public-api.ts",
+            "integrity": "sha1:65a81340cc7857fb1fc4c87637b7ee18bed821a3"
+        }
+    ]
+}

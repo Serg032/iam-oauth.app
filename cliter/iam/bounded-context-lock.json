@@ -1,0 +1,53 @@
+{
+    "version": "0.0.1",
+    "files": [
+        {
+            "path": "src/app/modules/admin/apps/iam/iam.component.html",
+            "integrity": "sha1:a6aab421500581830708e34385e2166e7a039ba7"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/iam.component.ts",
+            "integrity": "sha1:880d86f19f8517bcd4f902bc02e5298a619d531e"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/bounded-context/bounded-context-detail.component.html",
+            "integrity": "sha1:5152ac7287d3a7137619d85619c1f970cc75318a"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/bounded-context/bounded-context-detail.component.ts",
+            "integrity": "sha1:aba96d532b15c21f4dd00bf887aae2c195241ce8"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/bounded-context/bounded-context-list.component.html",
+            "integrity": "sha1:89896d207d8bc9370d7c070026f8813b50cef146"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/bounded-context/bounded-context-list.component.ts",
+            "integrity": "sha1:1a99525da0e0c0444f8ba32a2982e46725bdae9b"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/bounded-context/bounded-context.columns-config.ts",
+            "integrity": "sha1:d4f6aea4864a994dee5b9118054271a2a0233171"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/bounded-context/bounded-context.graphql.ts",
+            "integrity": "sha1:3adbc47f6053a08aa3627b6336b61c478fc03023"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/bounded-context/bounded-context.resolvers.ts",
+            "integrity": "sha1:f8fcf1c1631cf06d59a85a47f23af6ffe2002e08"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/bounded-context/bounded-context.service.ts",
+            "integrity": "sha1:fbe0b3d5f3ca0e90ff36ed9ff4238686fa044025"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/bounded-context/index.ts",
+            "integrity": "sha1:0668bfe7d206f064143571f4c397ca726db8cdaf"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/bounded-context/public-api.ts",
+            "integrity": "sha1:d458ec717a77a0b456d26fee909abaf13551cb66"
+        }
+    ]
+}

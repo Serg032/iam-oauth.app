@@ -1,0 +1,103 @@
+version: 0.0.1
+boundedContextName: iam
+moduleName: role
+moduleNames: roles
+aggregateName: IamRole
+hasOAuth: true
+hasTenant: false
+hasAuditing: true
+front:
+  solidIcon: mat_solid:groups
+  outlineIcon: mat_outline:groups
+aggregateProperties:
+  - name: id
+    type: id
+    primaryKey: true
+    length: 36
+    nullable: false
+  - name: name
+    type: varchar
+    maxLength: 127
+    nullable: false
+  - name: isMaster
+    type: boolean
+    nullable: false
+    defaultValue: false
+    example: false
+  - name: permissions
+    type: relationship
+    nullable: true
+    webComponent:
+      type: grid-select-multiple-elements
+    relationship:
+      type: many-to-many
+      singularName: permission
+      aggregateName: IamPermission
+      modulePath: iam/permission
+      avoidConstraint: false
+      pivot:
+        boundedContextName: iam
+        moduleName: permission-role
+        moduleNames: permissions-roles
+        aggregateName: IamPermissionRole
+        hasOAuth: true
+        hasAuditing: true
+        aggregateProperties:
+          - name: permissionId
+            type: id
+            primaryKey: true
+            length: 36
+            nullable: false
+            aggregateName: IamPermission
+            modulePath: iam/permission
+          - name: roleId
+            type: id
+            primaryKey: true
+            length: 36
+            nullable: false
+            aggregateName: IamRole
+            modulePath: iam/role
+  - name: accounts
+    type: relationship
+    nullable: true
+    relationship:
+      type: many-to-many
+      singularName: account
+      aggregateName: IamAccount
+      modulePath: iam/account
+      avoidConstraint: false
+      pivot:
+        boundedContextName: iam
+        moduleName: role-account
+        moduleNames: roles-accounts
+        aggregateName: IamRoleAccount
+        hasOAuth: true
+        hasAuditing: true
+        aggregateProperties:
+          - name: roleId
+            type: id
+            primaryKey: true
+            length: 36
+            nullable: false
+            aggregateName: IamRole
+            modulePath: iam/role
+          - name: accountId
+            type: id
+            primaryKey: true
+            length: 36
+            nullable: false
+            aggregateName: IamAccount
+            modulePath: iam/account
+  - name: createdAt
+    type: timestamp
+    nullable: true
+  - name: updatedAt
+    type: timestamp
+    nullable: true
+  - name: deletedAt
+    type: timestamp
+    nullable: true
+additionalApis:
+  - path: iam/role/inherit-permissions-role
+    resolverType: mutation
+    httpMethod: post

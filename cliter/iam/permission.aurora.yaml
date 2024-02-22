@@ -1,0 +1,75 @@
+version: 0.0.1
+boundedContextName: iam
+moduleName: permission
+moduleNames: permissions
+aggregateName: IamPermission
+hasOAuth: true
+hasTenant: false
+hasAuditing: true
+front:
+  outlineIcon: mat_outline:local_police
+  solidIcon: mat_solid:local_police
+aggregateProperties:
+  - name: id
+    type: id
+    primaryKey: true
+    length: 36
+    nullable: false
+  - name: name
+    type: varchar
+    maxLength: 127
+    nullable: false
+  - name: boundedContextId
+    type: id
+    length: 36
+    nullable: false
+    relationship:
+      type: many-to-one
+      aggregateName: IamBoundedContext
+      modulePath: iam/bounded-context
+      key: id
+      field: boundedContext
+      avoidConstraint: true
+    index: index
+    webComponent:
+      type: select
+  - name: roles
+    type: relationship
+    nullable: true
+    relationship:
+      type: many-to-many
+      singularName: role
+      aggregateName: IamRole
+      modulePath: iam/role
+      avoidConstraint: false
+      pivot:
+        boundedContextName: iam
+        moduleName: permission-role
+        moduleNames: permissions-roles
+        aggregateName: IamPermissionRole
+        hasOAuth: true
+        hasAuditing: true
+        aggregateProperties:
+          - name: permissionId
+            type: id
+            primaryKey: true
+            length: 36
+            nullable: false
+            aggregateName: IamPermission
+            modulePath: iam/permission
+          - name: roleId
+            type: id
+            primaryKey: true
+            length: 36
+            nullable: false
+            aggregateName: IamRole
+            modulePath: iam/role
+  - name: createdAt
+    type: timestamp
+    nullable: true
+  - name: updatedAt
+    type: timestamp
+    nullable: true
+  - name: deletedAt
+    type: timestamp
+    nullable: true

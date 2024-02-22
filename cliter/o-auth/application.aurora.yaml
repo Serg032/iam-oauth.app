@@ -1,0 +1,76 @@
+version: 0.0.1
+boundedContextName: o-auth
+moduleName: application
+moduleNames: applications
+aggregateName: OAuthApplication
+hasOAuth: true
+hasTenant: false
+hasAuditing: true
+front:
+  solidIcon: mat_solid:apps
+  outlineIcon: mat_outline:apps
+aggregateProperties:
+  - name: id
+    type: id
+    primaryKey: true
+    length: 36
+    nullable: false
+  - name: code
+    type: varchar
+    maxLength: 63
+    nullable: false
+    index: unique
+  - name: name
+    type: varchar
+    maxLength: 127
+    nullable: false
+  - name: secret
+    type: varchar
+    maxLength: 127
+    nullable: false
+  - name: isMaster
+    type: boolean
+    nullable: false
+    defaultValue: false
+    example: false
+  - name: clients
+    type: relationship
+    nullable: true
+    relationship:
+      type: many-to-many
+      singularName: client
+      aggregateName: OAuthClient
+      modulePath: o-auth/client
+      avoidConstraint: true
+      pivot:
+        boundedContextName: o-auth
+        moduleName: application-client
+        moduleNames: applications-clients
+        aggregateName: OAuthApplicationClient
+        hasOAuth: true
+        hasAuditing: true
+        aggregateProperties:
+          - name: applicationId
+            type: id
+            primaryKey: true
+            length: 36
+            nullable: false
+            aggregateName: OAuthApplication
+            modulePath: o-auth/application
+          - name: clientId
+            type: id
+            primaryKey: true
+            length: 36
+            nullable: false
+            aggregateName: OAuthClient
+            modulePath: o-auth/client
+  - name: createdAt
+    type: timestamp
+    nullable: true
+  - name: updatedAt
+    type: timestamp
+    nullable: true
+  - name: deletedAt
+    type: timestamp
+    nullable: true
+additionalApis: []

@@ -1,0 +1,13 @@
+{
+    "Compare"   : "Los valores no coinciden, deben ser iguales.",
+    "Default"   : "Error no contemplado.",
+    "Email"     : "Este campo debe ser un email válido.",
+    "Login"     : "El usuario o contraseña no son válidos.",
+    "Max"       : "Este campo no puede ser mayor que {{ max }}.",
+    "MaxLength" : "Este campo no puede ser mayor que {{ maxlength }} caracteres.",
+    "Min"       : "Este campo no puede ser menor que {{ min }}.",
+    "MinLength" : "Este campo debe tener al menos {{ minlength }} caracteres.",
+    "NotEqual"  : "El campo {{ fieldName }} no es igual que el campo {{ matchFieldName }}",
+    "Required"  : "Este campo es requerido.",
+    "Pattern"   : "El valor del campo no coincide con el patrón indicado"
+}

@@ -1,0 +1,73 @@
+{
+    "version": "0.0.1",
+    "files": [
+        {
+            "path": "src/assets/i18n/hotel/en.json",
+            "integrity": "sha1:0b56d40c0630a74abec5398e01c6cd83263feddc"
+        },
+        {
+            "path": "src/assets/i18n/hotel/es.json",
+            "integrity": "sha1:0b56d40c0630a74abec5398e01c6cd83263feddc"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/hotel.component.html",
+            "integrity": "sha1:a6aab421500581830708e34385e2166e7a039ba7"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/hotel.component.ts",
+            "integrity": "sha1:1db51b036bab3e9fd7f5dd1d0d85b937eea2bedf"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/hotel.navigation.ts",
+            "integrity": "sha1:9ae54ce47588c389e9a3a3b93d35ad375ea8ef01"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/hotel.routes.ts",
+            "integrity": "sha1:c2d88545292154745a03f0292475f2b50a67c852"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/hotel.types.ts",
+            "integrity": "sha1:da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/guest/index.ts",
+            "integrity": "sha1:0668bfe7d206f064143571f4c397ca726db8cdaf"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/guest/public-api.ts",
+            "integrity": "sha1:c6f97ea315ca9f8f0e2f06e8eb1a014281a1ab10"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/guest/guest-detail.component.html",
+            "integrity": "sha1:959f281d55ca0b5ef1c7fc5352908b187603275b"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/guest/guest-detail.component.ts",
+            "integrity": "sha1:31705ec00c210556f2bc347e9e0ec8519fd514bc"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/guest/guest-list.component.html",
+            "integrity": "sha1:8a8f7cc25c950e7057b6510972d3d7f3b7f9eef3"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/guest/guest-list.component.ts",
+            "integrity": "sha1:6904794a092108c62b27d6033b89d5986e4fb581"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/guest/guest.columns-config.ts",
+            "integrity": "sha1:54ee156da62aa09676bc52809d991dca23702b7d"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/guest/guest.graphql.ts",
+            "integrity": "sha1:73068e3e6dc82c40a3a11aeecf5bf8126b303686"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/guest/guest.resolvers.ts",
+            "integrity": "sha1:8c198b4b571ff4df4fae3239b4edfdb48673c3af"
+        },
+        {
+            "path": "src/app/modules/admin/apps/hotel/guest/guest.service.ts",
+            "integrity": "sha1:1befdf614aca47ceb15f49aeaaab80c089fea770"
+        }
+    ]
+}

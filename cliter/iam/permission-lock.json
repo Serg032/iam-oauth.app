@@ -1,0 +1,53 @@
+{
+    "version": "0.0.1",
+    "files": [
+        {
+            "path": "src/app/modules/admin/apps/iam/iam.component.html",
+            "integrity": "sha1:a6aab421500581830708e34385e2166e7a039ba7"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/iam.component.ts",
+            "integrity": "sha1:880d86f19f8517bcd4f902bc02e5298a619d531e"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/permission/permission-detail.component.html",
+            "integrity": "sha1:f1a8407ca4057832d87900cec6d91f3da07d354b"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/permission/permission-detail.component.ts",
+            "integrity": "sha1:182fd193569c3496bea514fde42b75f58cdebf84"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/permission/permission-list.component.html",
+            "integrity": "sha1:11e9b667d008500d1ba69681998e3071fcf5828f"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/permission/permission-list.component.ts",
+            "integrity": "sha1:523e3aa6c89d9d1f905ece27628be96e09de378d"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/permission/permission.columns-config.ts",
+            "integrity": "sha1:4031df7b4755ab8a34fdbcafaad74c22817c6c02"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/permission/permission.graphql.ts",
+            "integrity": "sha1:0c3df4340ca78461aa7996d621ada929ee1e7649"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/permission/permission.resolvers.ts",
+            "integrity": "sha1:3e6b1db053c384f08de515e1db919ddc579b5758"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/permission/permission.service.ts",
+            "integrity": "sha1:b9bcd7d8b92f1338ab1b8370202fce50c9ea6348"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/permission/index.ts",
+            "integrity": "sha1:0668bfe7d206f064143571f4c397ca726db8cdaf"
+        },
+        {
+            "path": "src/app/modules/admin/apps/iam/permission/public-api.ts",
+            "integrity": "sha1:2f69d1095dc5dd4bd39b9c71283e798a2d31e334"
+        }
+    ]
+}
